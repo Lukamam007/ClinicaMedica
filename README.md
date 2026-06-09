@@ -11,3 +11,7 @@ El sistema lista los médicos que atienden la especialidad seleccionada y solici
 El sistema muestra los días y horarios en que el médico elegido atiende esa especialidad. El usuario ingresa la fecha y hora deseada.
 - 5 — Confirmar y registrar el turno
 El sistema muestra un resumen del turno y solicita confirmación. Si el usuario confirma, el turno se guarda con estado "reservado".
+
+ Para instalar Entity Framework
+- dotnet add package Microsoft.EntityFrameworkCore
+- dotnet add package Microsoft.EntityFrameworkCore.Sqlite
